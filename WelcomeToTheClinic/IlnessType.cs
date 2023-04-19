@@ -8,5 +8,8 @@ namespace WelcomeToTheClinic
 {
     public enum IlnessType
     {
+        Eyes,
+        Teeth,
+        Other
     }
 }

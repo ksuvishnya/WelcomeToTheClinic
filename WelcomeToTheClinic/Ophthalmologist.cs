@@ -8,5 +8,9 @@ namespace WelcomeToTheClinic
 {
     public class Ophthalmologist : Doctor
     {
+        public static void Treat()
+        {
+            Console.WriteLine("You've been treated by Ophthalmologist");
+        }
     }
 }

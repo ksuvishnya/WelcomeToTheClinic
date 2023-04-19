@@ -8,5 +8,9 @@ namespace WelcomeToTheClinic
 {
     public class Dentist : Doctor
     {
+        public static void Treat()
+        {
+            Console.WriteLine("You've been treated by Dentist");
+        }
     }
 }
